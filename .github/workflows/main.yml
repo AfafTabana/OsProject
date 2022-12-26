@@ -12,8 +12,7 @@ jobs:
 
 
     steps:
-      - name: 'Testing github'
-        run: pwd
+      - name: 'printing content'
+        run: ls
 
-      - name: 'Testing printing'
-        run: echo afaf
+      
